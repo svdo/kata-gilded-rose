@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AcceptanceTest" type="JUnit" factoryName="JUnit" singleton="true" nameIsGenerated="true">
+    <module name="kata-gilded-rose" />
+    <option name="PACKAGE_NAME" value="" />
+    <option name="MAIN_CLASS_NAME" value="AcceptanceTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="PARAMETERS" value="" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
