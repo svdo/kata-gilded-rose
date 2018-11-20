@@ -21,7 +21,7 @@ internal class AcceptanceTest {
         System.setOut(originalOut)
 
         val mainOut = baos.toString()
-        val outputLines = mainOut.split("\n")
+        val outputLines = mainOut.split(System.getProperty("line.separator"))
         for (i in 0 until minOf(lines.size, outputLines.size)) {
             assertEquals(lines[i], outputLines[i])
         }
