@@ -52,6 +52,24 @@ run configuration "Acceptance Tests" runs the program and verifies
 that the output is the same as that in `ThirtyDays.txt`. You are now
 ready to start refactoring.
 
+## Extra Challenge
+
+Maybe you have done this before. Maybe you know all there is to know
+about refactoring. Maybe you just like a challenge. Here you go:
+
+- In IntelliJ, go to the plugin preferences and manually install the
+  provided `run-after-tests.jar` plugin; restart IntelliJ
+- In the settings of the plugin ("Run After Tests"), there are two fields.
+  If your project is checked out in `<gildedrosedir>`, fill in
+  `<gildedrosedir>/green.sh` in the first field, and
+  `<gildedrosedir>/red.sh` in the second one.
+
+What does this do you ask? Simple: every time you run the tests, one
+of two things happens. If your tests pass, your code is automatically
+committed. If your tests fail, your working copy is reset, so your
+changes are lost. Try this and learn from how it influences your
+behavior!
+
 ## License
 
 MIT
